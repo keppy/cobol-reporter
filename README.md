@@ -8,5 +8,6 @@ It also contains a script `json_to_markdown.py` for turning the JSON output from
 
 The vector store is kept offline once you create the embeddings. I think you can just use my embeddings from this repo though and avoid the 20 cent charge.
 
+## You'll need an openpipe account and to have a OPENPIPE_API_KEY and OPENAI_API_KEY set!
 
 Happy trails prospector :wink:
