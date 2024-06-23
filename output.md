@@ -1,0 +1,7 @@
+# Cobal Report for PROCESS SQL - ADD Customer Details
+
+- **Explanation:** This COBOL program is designed to add customer details to a <font color="purple">DB2</font> customer table. It includes sections for identification, environment, data, and procedures. The program initializes working storage variables, processes incoming communication areas, and inserts customer data into the database. It also handles error messages and writes them to queues.
+- **Identification_division_report:** The <font color="green">IDENTIFICATION DIVISION</font> specifies the name of the program as **LGACDB01**.
+- **Environment_division_report:** The <font color="green">ENVIRONMENT DIVISION</font> includes a <font color="blue">CONFIGURATION SECTION</font>, but no specific configuration details are provided.
+- **Data_division_report:** The <font color="green">DATA DIVISION</font> includes the <font color="blue">WORKING-STORAGE SECTION</font>, which defines various variables and structures used in the program. It also includes the SQLCA for DB2 communications and a <font color="blue">LINKAGE SECTION</font> for communication areas.
+- **Procedure_division_report:** The <font color="green">PROCEDURE DIVISION</font> includes the <font color="blue">MAINLINE SECTION</font>, which initializes variables, processes the communication area, and calls routines to insert customer data into the database. It also includes error handling procedures to write error messages to queues.

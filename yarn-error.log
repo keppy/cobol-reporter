@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/jamesdominguez/.nvm/versions/node/v18.19.0/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js add llama-index-core
+
+PATH: 
+  /Users/jamesdominguez/.nvm/versions/node/v18.19.0/bin:/Users/jamesdominguez/go/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Library/TeX/texbin:/usr/local/go/bin:/Users/jamesdominguez/.sdkman/candidates/java/current/bin:/Users/jamesdominguez/.nvm/versions/node/v18.19.0/bin:/Users/jamesdominguez/go/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/iTerm.app/Contents/Resources/utilities:/Applications/Racket v8.12/bin:/Users/jamesdominguez/Library/Python/3.11/bin:/Users/jamesdominguez/.local/bin:/Users/jamesdominguez/Library/Android/sdk/platform-tools/:/Users/jamesdominguez/Library/Android/sdk/emulator:/Users/jamesdominguez/Library/Android/sdk/tools:/Users/jamesdominguez/Library/Android/sdk/tools/bin:/Users/jamesdominguez/Library/Android/sdk/platform-tools:/Users/jamesdominguez/Library/Android/sdk/cmdline-tools/latest/bin:/Applications/Racket v8.12/bin:/Users/jamesdominguez/Library/Python/3.11/bin:/Users/jamesdominguez/.local/bin:/Users/jamesdominguez/Library/Android/sdk/platform-tools/:/Users/jamesdominguez/Library/Android/sdk/emulator:/Users/jamesdominguez/Library/Android/sdk/tools:/Users/jamesdominguez/Library/Android/sdk/tools/bin:/Users/jamesdominguez/Library/Android/sdk/platform-tools:/Users/jamesdominguez/Library/Android/sdk/cmdline-tools/latest/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.19.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/llama-index-core: Not found
+      at params.callback [as _callback] (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:66145:18)
+      at self.callback (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:140890:22)
+      at Request.emit (node:events:517:28)
+      at Request.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141862:10)
+      at Request.emit (node:events:517:28)
+      at IncomingMessage.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:631:28)
+      at IncomingMessage.emit (node:events:529:35)
+      at endReadableNT (node:internal/streams/readable:1400:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
