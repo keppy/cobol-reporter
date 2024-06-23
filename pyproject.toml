@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "cobol-reporter"
 version = "0.1.0"
-description = "cobol ai fine tuned reporting for understanding COBOL code\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[A"
+description = "ai for understanding COBOL code"
 authors = ["keppy <keppy.rb@gmail.com>"]
 license = "none"
 readme = "README.md"
