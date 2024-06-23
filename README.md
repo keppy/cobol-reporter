@@ -10,4 +10,27 @@ The vector store is kept offline once you create the embeddings. I think you can
 
 ## You'll need an openpipe account and to have a OPENPIPE_API_KEY and OPENAI_API_KEY set!
 
+## To RUN it
+### Setup:
+```
+poetry install
+poetry shell
+```
+
+### RAG:
+```
+python ./cobal_reporter/rag.py
+```
+
+### COBOL reports:
+First, add any additional COBOL source code documents to the `test_queries` list in `openpipe_tuner.py`.
+```
+python ./cobol_reporter/openpipe_tuner.py
+```
+
+Then, turn the JSON to Markdown:
+```
+python ./cobol_reporter/json_to_markdown.py
+```
+
 Happy trails prospector :wink:
