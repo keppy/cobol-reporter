@@ -1,3 +1,5 @@
+![pindragoon_16h_Vintage_technical_illustration_of_a_COBOL_IBM__ca6b5fcd-3c2a-4459-9bb5-c33c7e2c13cc_2](https://github.com/keppy/cobol-reporter/assets/1513098/21e8458a-0771-4042-99e4-f52e16e21f13)
+
 # Cobol Reporter
 This project contains a few scripts for understanding COBOL code that I did for an interview.
 It uses instructor and Pydantic to create a report about COBOL code. It embeds the GNU COBOL 2.0 Programmers manual using
